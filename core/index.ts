@@ -1,1 +1,3 @@
-console.log("auto-push-email");
+const autoPushEmail = async function () {};
+
+autoPushEmail();
