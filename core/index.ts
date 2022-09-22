@@ -1,3 +1,1 @@
-const autoPushEmail = async function () {};
-
-autoPushEmail();
+import "./packages/LoverEmail/index";
