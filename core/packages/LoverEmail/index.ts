@@ -180,13 +180,13 @@ const renderHtmlTemplate = async () => {
   console.log("htmlTemplate->", htmlTemplate);
 
   sendEmail({
-    // authUser: "2595723575@qq.com",
-    // authPass: "ichwndgfrbbgdjhd",
-    authUser: "1213563369@qq.com",
-    authPass: "sftmjrgwknmwgcdg",
+    authUser: "2595723575@qq.com",
+    authPass: "ichwndgfrbbgdjhd",
+    // authUser: "1213563369@qq.com",
+    // authPass: "sftmjrgwknmwgcdg",
     emailTitle: "爱你的鹏鹏",
     emailSubject: "每日提醒",
-    receiveUsers: ["1637550697@qq.com"],
+    receiveUsers: ["1213563369@qq.com"],
     emailContent: htmlTemplate,
   });
 };

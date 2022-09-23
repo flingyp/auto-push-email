@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch core --ext ts --exec pnpm push",
-    "push": "esno ./core/index.ts"
+    "push": "esno ./core/index"
   },
   "keywords": [
     "GitHub Actions",
